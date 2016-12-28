@@ -1,9 +1,9 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using Windows.Storage;
-
-namespace Storage.Files
+﻿namespace Storage.Files
 {
+    using System.Collections.Generic;
+    using System.Threading.Tasks;
+    using Windows.Storage;
+
     public interface IFilesStorage
     {
         Task<bool> CreateFileAsync(StorageFile file, StorageFolder folder = null);
